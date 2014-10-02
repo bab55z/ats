@@ -1,0 +1,45 @@
+{
+  "name": "Post",
+  "base": "PersistedModel",
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "publishDate": {
+      "type": "date",
+      "required": true
+    },
+    "lastModifyDate": {
+      "type": "date",
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "category": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
