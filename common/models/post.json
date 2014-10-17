@@ -4,7 +4,8 @@
   "properties": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "index": true
     },
     "content": {
       "type": "string",
@@ -33,8 +34,13 @@
     "tags": {
       "type": "string"
     },
-    "category": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "categoryId": {
       "type": "object",
+      "id": false,
       "required": true
     }
   },
